@@ -1,0 +1,14 @@
+button {
+    margin-top: 2vh;
+    cursor: pointer;
+    
+}
+
+.singleCard {
+    margin: 1vh;
+    background-color: #EDF2F4;
+    color: #2B2D42;
+    border-radius: 1vh;
+    padding: 1vh;
+    width: 100%;
+}

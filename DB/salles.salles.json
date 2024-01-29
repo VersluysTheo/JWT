@@ -1,0 +1,271 @@
+[
+  {
+    "_id": 1,
+    "nom": "Le Jazz Magnifique",
+    "adresse": {
+      "numero": 8,
+      "voie": "Rue des Rhythmes Joyeux",
+      "codePostal": "84000",
+      "ville": "Avignon",
+      "localisation": {
+        "type": "Point",
+        "coordinates": [
+          43.958720,
+          4.808130
+        ]
+      }
+    },
+    "styles": [
+      "jazz",
+      "soul",
+      "funk"
+    ],
+    "avis": [
+      {
+        "date": {
+          "$date": "2019-12-15T00:00:00.000Z"
+        },
+        "note": 8
+      },
+      {
+        "date": {
+          "$date": "2020-01-20T00:00:00.000Z"
+        },
+        "note": 9
+      }
+    ],
+    "capacite": 250,
+    "smac": true
+  },
+  {
+    "_id": 2,
+    "nom": "La Bohème Live Club",
+    "adresse": {
+      "numero": 145,
+      "voie": "Boulevard de la Musique",
+      "codePostal": "30000",
+      "ville": "Nîmes",
+      "localisation": {
+        "type": "Point",
+        "coordinates": [
+          43.844642,
+          4.350415
+        ]
+      }
+    },
+    "styles": [
+      "rock",
+      "indie"
+    ],
+    "avis": [
+      {
+        "date": {
+          "$date": "2019-08-10T00:00:00.000Z"
+        },
+        "note": 10
+      }
+    ],
+    "capacite": 350,
+    "smac": true
+  },
+  {
+    "_id": 3,
+    "nom": "Sonic Fusion Lounge",
+    "adresse": {
+      "numero": 20,
+      "voie": "Avenue Harmonique",
+      "codePostal": "67000",
+      "ville": "Strasbourg",
+      "localisation": {
+        "type": "Point",
+        "coordinates": [
+          48.582312,
+          7.751892
+        ]
+      }
+    },
+    "styles": [
+      "electronic",
+      "ambient"
+    ],
+    "capacite": 400,
+    "smac": false
+  },
+  {
+    "_id": 4,
+    "nom": "Rock Haven",
+    "adresse": {
+      "numero": 65,
+      "voie": "Rue de la république",
+      "codePostal": "69002",
+      "ville": "Marseille",
+      "localisation": {
+        "type": "Point",
+        "coordinates": [
+          45.754321,
+          4.827889
+        ]
+      }
+    },
+    "styles": [
+      "rock",
+      "metal"
+    ],
+    "capacite": 800,
+    "smac": true,
+    "avis": [
+      {
+        "date": {
+          "$date": "2020-03-05T00:00:00.000Z"
+        },
+        "note": 9
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "nom": "Electro Groove Palace",
+    "adresse": {
+      "numero": 320,
+      "voie": "Boulevard Techno",
+      "codePostal": "33000",
+      "ville": "Bordeaux",
+      "localisation": {
+        "type": "Point",
+        "coordinates": [
+          44.836512,
+          -0.576890
+        ]
+      }
+    },
+    "styles": [
+      "electronic",
+      "dance"
+    ],
+    "capacite": 600,
+    "smac": true
+  },
+  {
+    "_id": 6,
+    "nom": "Opera Elegante",
+    "adresse": {
+      "numero": 753,
+      "voie": "Rue de l'Opéra",
+      "codePostal": "75002",
+      "ville": "Paris",
+      "localisation": {
+        "type": "Point",
+        "coordinates": [
+          48.870918,
+          2.341650
+        ]
+      }
+    },
+    "styles": [
+      "classical",
+      "opera"
+    ],
+    "capacite": 1000,
+    "smac": false
+  },
+  {
+    "_id": 7,
+    "nom": "Urban Rhymes Hall",
+    "adresse": {
+      "numero": 482,
+      "voie": "Rue Hip-Hop",
+      "codePostal": "13001",
+      "ville": "Marseille",
+      "localisation": {
+        "type": "Point",
+        "coordinates": [
+          43.298765,
+          5.366490
+        ]
+      }
+    },
+    "styles": [
+      "hip-hop",
+      "rap"
+    ],
+    "capacite": 700,
+    "smac": true
+  },
+  {
+    "_id": 8,
+    "nom": "Indie Vibes Spot",
+    "adresse": {
+      "numero": 890,
+      "voie": "Avenue Alternative",
+      "codePostal": "69001",
+      "ville": "Lyon",
+      "localisation": {
+        "type": "Point",
+        "coordinates": [
+          45.756789,
+          4.839012
+        ]
+      }
+    },
+    "styles": [
+      "indie",
+      "alternative"
+    ],
+    "capacite": 500,
+    "smac": true
+  },
+  {
+    "_id": 9,
+    "nom": "Funky Groove Arena",
+    "adresse": {
+      "numero": 210,
+      "voie": "Rue Funk",
+      "codePostal": "84250",
+      "ville": "Le Thor",
+      "localisation": {
+        "type": "Point",
+        "coordinates": [
+          43.925110,
+          5.019876
+        ]
+      }
+    },
+    "styles": [
+      "funk",
+      "soul"
+    ],
+    "capacite": 300,
+    "smac": false
+  },
+  {
+    "_id": 10,
+    "nom": "Metallic Thunder Dome",
+    "adresse": {
+      "numero": 666,
+      "voie": "Avenue Metal",
+      "codePostal": "75003",
+      "ville": "Paris",
+      "localisation": {
+        "type": "Point",
+        "coordinates": [
+          48.859324,
+          2.361872
+        ]
+      }
+    },
+    "styles": [
+      "metal",
+      "hard rock"
+    ],
+    "capacite": 1200,
+    "smac": true,
+    "avis": [
+      {
+        "date": {
+          "$date": "2020-05-15T00:00:00.000Z"
+        },
+        "note": 9
+      }
+    ]
+  }
+]

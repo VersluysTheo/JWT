@@ -1,0 +1,45 @@
+.card {
+    margin: 1vh;
+    background-color: #EDF2F4;
+    color: #2B2D42;
+    border-radius: 1vh;
+    padding: 1vh;
+    width: 15%;
+}
+
+.card h2,
+p {
+    margin: 1vh;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    padding: 1vh;
+    width: 30vh;
+    border-radius: 5px;
+    background-color: #EDF2F4;
+    margin-bottom: 5vh;
+}
+
+button {
+    padding: 1vh;
+    width: 30vh;
+    border-radius: 5px;
+    background-color: #EDF2F4;
+    margin-bottom: 5vh;
+}
+
+@media screen (max-width:) {
+    
+}

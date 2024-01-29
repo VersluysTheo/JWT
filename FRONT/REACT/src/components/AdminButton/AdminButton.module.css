@@ -1,0 +1,11 @@
+button.adminmodif , button.adminsuppr, .addbutton button{
+    background-color: #2B2D42;
+    margin: 1vh;
+    padding: 1vh;
+}
+
+.addbutton button{
+    width: 5%;
+    color: rgb(119, 211, 90);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}

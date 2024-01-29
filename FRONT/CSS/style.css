@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.titre {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.filtre {
+  margin-top: 3vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1vh;
+}
+
+.checkbox {
+  margin-right: 15px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin: 8px 0;
+}
+
+label.style-select {
+  margin-right: 1vh;
+}
+
+.style {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.searchbar {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1vh;
+  justify-content: center;
+  margin-top: 1vh;
+}

@@ -1,0 +1,17 @@
+.listbox {
+    display: flex;
+    justify-content: right;
+    margin: 1vh;
+    padding: 1vh;
+}
+
+.selectlist {
+    background-color: #2B2D42;
+    padding: 1vh;
+    border: #2B2D42 2px solid;
+    border-radius: 3px;
+}
+
+.selectlist:hover {
+    border: #EDF2F4 2px solid;
+}
